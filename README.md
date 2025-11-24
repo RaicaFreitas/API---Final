@@ -1,4 +1,4 @@
-** API de Controle de Despesas Pessoais**
+**API de Controle de Despesas Pessoais**
 
 API RESTful desenvolvida com Spring Boot para gerenciamento financeiro pessoal, permitindo cadastro e controle de despesas e receitas. O objetivo do projeto é fornecer uma ferramenta simples e eficiente para que o usuário consiga registrar, organizar e acompanhar todas as movimentações financeiras do dia a dia, obtendo uma visão ampla de suas economias.
 
