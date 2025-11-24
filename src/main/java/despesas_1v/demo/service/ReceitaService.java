@@ -46,9 +46,7 @@ public class ReceitaService {
         return total != null ? total : BigDecimal.ZERO;
     }
 
-    // ------------------------------------------------------------
-    //                     CRIAR RECEITA
-    // ------------------------------------------------------------
+    
     public Receita criar(Receita receita) {
 
         // Buscar categoria completa pelo ID enviado no JSON
@@ -68,9 +66,7 @@ public class ReceitaService {
         return receitaRepository.save(receita);
     }
 
-    // ------------------------------------------------------------
-    //                     ATUALIZAR RECEITA
-    // ------------------------------------------------------------
+    
     public Receita atualizar(Integer id, Receita receita) {
 
         Receita receitaExistente = buscarPorId(id);
@@ -97,9 +93,7 @@ public class ReceitaService {
         return receitaRepository.save(receitaExistente);
     }
 
-    // ------------------------------------------------------------
-    //                     DELETAR RECEITA
-    // ------------------------------------------------------------
+
     public void deletar(Integer id) {
         Receita receita = buscarPorId(id);
         receitaRepository.delete(receita);
