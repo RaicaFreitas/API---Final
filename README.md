@@ -38,6 +38,7 @@ Testar endpoints via Postman.
 POST categoria:
 
 http://localhost:8080/api/v1/categorias
+
 {
   "nome": "Saúde",
   "descricao": "Farmácia, consultas médicas",
@@ -68,6 +69,7 @@ http://localhost:8080/api/v1/categorias/1**
 }
 
 POST despesas:
+
 http://localhost:8080/api/v1/despesas
 
 {
@@ -96,6 +98,7 @@ http://localhost:8080/api/v1/categorias-receita
 POST formas_recebimento:
 
 http://localhost:8080/api/v1/formas-recebimento
+
 {
   "nome": "Depósito Bancário",
   "descricao": "Transferência para conta corrente",
@@ -105,6 +108,7 @@ http://localhost:8080/api/v1/formas-recebimento
 POST receitas:
 
 http://localhost:8080/api/v1/receitas/1
+
 {
   "descricao": "Salário Novembro 2025",
   "valor": 5000.00,
