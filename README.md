@@ -36,6 +36,7 @@ Testar endpoints via Postman.
 **Exemplos para fazer requisições:
 
 POST categoria:
+
 http://localhost:8080/api/v1/categorias
 {
   "nome": "Saúde",
@@ -43,7 +44,8 @@ http://localhost:8080/api/v1/categorias
   "ativo": true
 }
 
-PUT categoria
+PUT categoria:
+
 http://localhost:8080/api/v1/categorias/1
 
 {
@@ -53,9 +55,11 @@ http://localhost:8080/api/v1/categorias/1
 }
 
 DEL categoria (precisa ter mais categorias, apenas um exemplo)
+
 http://localhost:8080/api/v1/categorias/1**
 
 **POST forma_pagamento:
+
 {
   "idFormaPagamento": 1,
   "nome": "Dinheiro",
@@ -65,6 +69,7 @@ http://localhost:8080/api/v1/categorias/1**
 
 POST despesas:
 http://localhost:8080/api/v1/despesas
+
 {
   "descricao": "Compras supermercado - Extra",
   "valor": 650.50,
@@ -79,6 +84,7 @@ http://localhost:8080/api/v1/despesas
 }
 
 POST categoria_receita:
+
 http://localhost:8080/api/v1/categorias-receita
 
 {
@@ -88,6 +94,7 @@ http://localhost:8080/api/v1/categorias-receita
 }
 
 POST formas_recebimento:
+
 http://localhost:8080/api/v1/formas-recebimento
 {
   "nome": "Depósito Bancário",
@@ -96,6 +103,7 @@ http://localhost:8080/api/v1/formas-recebimento
 }
 
 POST receitas:
+
 http://localhost:8080/api/v1/receitas/1
 {
   "descricao": "Salário Novembro 2025",
@@ -112,6 +120,7 @@ http://localhost:8080/api/v1/receitas/1
 }
 
 GET listar despesas por periodo:
+
 http://localhost:8080/api/v1/despesas/periodo?dataInicio=2025-11-01&dataFim=2025-11-30
 
 resposta da requisição de despesas por periodo:
